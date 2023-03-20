@@ -2,7 +2,7 @@
      /* The image used */
      background-image: url("./pic/bg.jpg");
    
-     min-height: 200px;
+     height: 190px;
    
      /* Center and scale the image nicely */
      background-position: center;
@@ -44,3 +44,99 @@
      background-color: #ddd;
      color: black;
    }
+   .bg_color{
+     background-color: #ddf1e5;
+     height: 400px;
+    padding: 0%;
+    margin: 0%;
+   }
+   .words{
+     position: center;
+   }
+   .inside{
+     background-color: white;
+     width: 500px;
+     height: 500px;
+   }
+   .top-container
+   {
+    background-color: #ddf1e5;
+    height: 100%;
+   }
+   .parent{
+     background-color: white;
+    width: 60%;
+    margin-top:30px ;
+    display: flex;
+   }
+   .image img{
+     width: 25%;
+     height: 80%;
+     margin-left: -70%;
+    padding-left: -1000px;
+     margin-top: 80px;
+     padding-bottom: 10px;
+   }
+   .image{
+padding-left: -100px;
+  
+  }
+  .text{
+    margin-top:80px ;
+  
+  }
+  .text img{
+    width:200px;
+    height:100px;
+    margin-left: -850px;
+  }
+  .text p{
+    margin-left: -850px;
+  }
+  <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  #footer .twitter {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+  #footer .linkedin {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -78px 0;
+  }
+  #footer .facebook {
+    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
+    background-repeat: no-repeat;
+    background-position: -233px 0;
+  }
+  
+  
+  #footer a {
+    height: 56px;
+    width: 56px;
+    display: inline-block;
+    margin: 10px;
+  }
+  #footer a:hover {
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+  }
+  #footer .twitter:hover {
+    background-position: 0 -56px;
+  }
+  #footer .facebook:hover {
+    background-position: -233px -56px;
+  }
+  
+  
+  #footer .linkedin:hover {
+    background-position: -78px -56px;
+  }
+  
+  .bg-dark-1{
+    background-color: #07CB79;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+   
+  }
