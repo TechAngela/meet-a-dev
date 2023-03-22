@@ -1,7 +1,8 @@
-.bg-img {
+
+  .bg-img {
      /* The image used */
      background-image: url("./pic/bg.jpg");
-   
+     width: 100%;
      height: 190px;
    
      /* Center and scale the image nicely */
@@ -50,30 +51,26 @@
     padding: 0%;
     margin: 0%;
    }
-   .words{
-     position: center;
+   .words p{
+    margin-left: 500px;
    }
-   .inside{
-     background-color: white;
-     width: 500px;
-     height: 500px;
-   }
+   
    .top-container
    {
-    background-color: #ddf1e5;
-    height: 100%;
+    background-color: #DDF1E5;
+    height: 23cm;
    }
    .parent{
      background-color: white;
-    width: 60%;
+     width: 40%; 
     margin-top:30px ;
     display: flex;
-   }
+    }
    .image img{
-     width: 25%;
-     height: 80%;
+     width: 40%;
+     height: 75%;
      margin-left: -70%;
-    padding-left: -1000px;
+    padding-left: 100px;
      margin-top: 80px;
      padding-bottom: 10px;
    }
@@ -88,55 +85,55 @@ padding-left: -100px;
   .text img{
     width:200px;
     height:100px;
-    margin-left: -850px;
+    margin-left: -300px;
   }
   .text p{
-    margin-left: -850px;
+    margin-left: -300px;
   }
-  <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  </head>
-  #footer .twitter {
-    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
-    background-repeat: no-repeat;
-    background-position: 0 0;
+  header{
+    width: 40%;
+    height: 80px;
+  background-color:#07CB79
   }
-  #footer .linkedin {
-    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
-    background-repeat: no-repeat;
-    background-position: -78px 0;
+  .project{
+    background-color: white;
+     width: 40%; 
+    margin-top:5px ;
+    margin-left: 30%;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+        
   }
-  #footer .facebook {
-    background-image: url(http://manstyle.coralixthemes.com/dark/img/dark/icons/footer-icons.png);
-    background-repeat: no-repeat;
-    background-position: -233px 0;
+  h2
+  {
+    margin-left: 30%;
   }
-  
-  
-  #footer a {
-    height: 56px;
-    width: 56px;
-    display: inline-block;
-    margin: 10px;
+  .skills img{
+    width: 40%;
+     height: 75%;
+     margin-left: -70%;
+    padding-left: 100px;
+     margin-top: 60px;
+     padding-bottom: 10px;
+    
   }
-  #footer a:hover {
-    transition: all 0.3s ease-out;
-    -webkit-transition: all 0.3s ease-out;
-  }
-  #footer .twitter:hover {
-    background-position: 0 -56px;
-  }
-  #footer .facebook:hover {
-    background-position: -233px -56px;
-  }
-  
-  
-  #footer .linkedin:hover {
-    background-position: -78px -56px;
-  }
-  
-  .bg-dark-1{
+  input[type=submit] {
     background-color: #07CB79;
-  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-   
+    color: white;
+    /*padding: 12px 20px;*/
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
   }
+  input[type=text], select, textarea {
+    width: 80%; /* Full width */
+    padding: 6px; /* Some padding */ 
+    border: 1px solid #01EC64; /* green border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 60px; /* Add a top margin */
+    margin-bottom: 1px; /* Bottom margin */
+   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
