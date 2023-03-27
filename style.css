@@ -182,3 +182,28 @@ padding-left: -100px;
           
         }
   }
+  @media screen and (max-width: 420px) {
+    
+    .topnav {
+         padding-left: 20%;
+          }
+   
+          .image img{
+           width: 50%;
+           height: 85%;
+          padding-left: 60px;
+           margin-top: 20px;
+           
+         }
+         .text img{
+           width:120px;
+           height:60px;
+           margin-left: -240px;
+           }
+           .text p{
+             margin-left: -240px;
+             /* padding: -10px 0px 0px 0px; */
+             font-size: 10px;
+             
+           }
+     }
