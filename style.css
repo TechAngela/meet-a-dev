@@ -26,7 +26,7 @@
    
    /* The navbar */
    .topnav {
-     padding-left: 50%;
+     padding-left: 40%;
         width: 100%;
      overflow: hidden;
      background-color:white;
@@ -60,11 +60,7 @@
     padding: 0%;
     margin: 0%;
    }
-   /* .words {
-    margin-left: 36%;
-    margin-top: 80px;
-
-   } */
+   
    
    .top-container
    {
@@ -72,17 +68,15 @@
     height: 23cm;
    }
    .parent{
-     background-color: white;
-    
-     width: 400px; 
+    background-color: white;
+    width: 400px; 
     margin:30px 0px 0px 0px ;
     display: flex;
     padding:auto;
     position: relative;
     top:70px;
- 
-    
     }
+
    .image img{
      width: 40%;
      height: 75%;
@@ -121,22 +115,19 @@ padding-left: -100px;
   }
   .project{
     position: relative;
-    top: 30%;
+    top: 50px;
     background-color: white;
-     width: 38.4%; 
-    margin-top:5px ;
-    margin-left: 30%;
+     width: 400px;
+     padding:auto;
+    margin: 30px ;
     
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 20px;
         
   }
   h2
   {
-    margin-left: 30%;
+    margin-left: 40px;
     position: relative;
-    top: 30%;
+    top: 60px;
   }
   .skills img{
     width: 40%;
@@ -166,9 +157,28 @@ padding-left: -100px;
    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
   }
   
-  @media only screen and (max-width: 1024px) {
+  @media screen and (max-width: 320px) {
+    
+ .topnav {
+      padding-left: 20%;
+       }
 
-    /* .words {
-      margin-right: 210px;
-      } */
+       .image img{
+        width: 50%;
+        height: 85%;
+       padding-left: 60px;
+        margin-top: 20px;
+        
+      }
+      .text img{
+        width:120px;
+        height:60px;
+        margin-left: -240px;
+        }
+        .text p{
+          margin-left: -240px;
+          /* padding: -10px 0px 0px 0px; */
+          font-size: 10px;
+          
+        }
   }
